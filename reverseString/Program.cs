@@ -73,3 +73,9 @@ string userInput2 = Console.ReadLine();
 rs.reverseSentence(userInput2);
 
 //----------End -Reverse Sentence ------------------------------------
+
+//----------Start -Count Number of Ocurrences ------------------------------------
+
+NumberOfOcurrences numberOfOcurrences = new NumberOfOcurrences();
+
+numberOfOcurrences.CountNumberOfOcurrences("Yashoman");
