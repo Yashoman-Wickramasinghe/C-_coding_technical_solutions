@@ -79,3 +79,25 @@ rs.reverseSentence(userInput2);
 NumberOfOcurrences numberOfOcurrences = new NumberOfOcurrences();
 
 numberOfOcurrences.CountNumberOfOcurrences("Yashoman");
+
+//----------End -Count Number of Ocurrences ------------------------------------
+
+//----------Start -Add Value to Array ------------------------------------
+ArraysAndArrayLists arraysAndArrayLists = new ArraysAndArrayLists();
+arraysAndArrayLists.AddValueToArray();
+
+//----------End -Add Value to Array ------------------------------------
+
+//----------Start -Generic Class -Add values ------------------------------------
+Console.WriteLine("Generic Class - Add values");    
+BoxGeneric<int> intBox = new BoxGeneric<int>();  // Box for integers
+intBox.SetItem(100);
+Console.WriteLine(intBox.GetItem());  // Output: 100
+
+BoxGeneric<string> stringBox = new BoxGeneric<string>();  // Box for strings
+stringBox.SetItem("Hello");
+Console.WriteLine(stringBox.GetItem());  // Output: Hello
+
+//----------End -Generic Class -Add values ------------------------------------
+
+GC.Collect(); // Garbage collection
